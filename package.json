@@ -1,0 +1,25 @@
+{
+  "name": "bicicletaria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc; node dist/index.js",
+    "db": "tsc; node dist/models/bikes.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mariadb": "^3.2.1",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.33.0"
+  }
+}
